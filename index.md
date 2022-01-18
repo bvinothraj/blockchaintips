@@ -1,4 +1,3 @@
 ## Blockchain Tips
 
-1. [test](test1.md)
-2. [test 2](test2.md)
+1. [What "trustless" in blockchain means?](tip1.md)
