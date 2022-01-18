@@ -5,6 +5,7 @@ description: A knowledge-sharing platform
 ---
 
 # What does "trustless" in blockchain mean?
+___B Vinoth Raj___  
 
 A trustless and distributed consensus system means that if you want to send and/or receive money from someone you don’t need to trust in third-party services.
 
