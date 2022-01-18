@@ -1,2 +1,2 @@
-## test 2
+**test 2**  
 some text for test 2
