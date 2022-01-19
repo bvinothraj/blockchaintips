@@ -5,9 +5,9 @@ description: A knowledge-sharing platform
 ---
 
 # What does "trustless" in blockchain mean?
-___B Vinoth Raj___  
-_Jan 19, 2022_  
-
+_Contributed By: B Vinoth Raj_  
+_Dated: Jan 19, 2022_  
+  
 A trustless and distributed consensus system means that if you want to send and/or receive money from someone you don’t need to trust in third-party services.
 
 When you use traditional methods of payment, you need to trust in a third party to set your transaction (e.g. Visa, Mastercard, PayPal, banks). They keep their own private register which stores transaction history and balances of each account.
