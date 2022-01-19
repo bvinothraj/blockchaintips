@@ -5,7 +5,9 @@ description: A knowledge-sharing platform
 ---
 
 # What is Eth2 or Ethereum 2.0 or Serenity?
-___B Vinoth Raj___  
+_Contributed By: B Vinoth Raj_  
+_Created: Jan 19, 2022_  
+
 
 Eth2 is a set of upgrades (in multiple phases) that improve the scalability, security, and sustainability of Ethereum.
 
