@@ -6,6 +6,9 @@ description: A knowledge-sharing platform
 
 # How does Eth2 work?
 
+_Contributed By: B. Vinoth Raj_  
+_Dated: Jan 20, 2022_    
+  
 Eth2 introduces the concept of sharding, beacon chain, slots, epoch and crosslinks.
 
 ![Beacon Chain](./assets/beacon_chain.jpg)  
