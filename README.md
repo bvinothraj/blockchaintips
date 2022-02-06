@@ -1,7 +1,7 @@
 # blockchaintips
 
 ## How to Contribute
-
+- Fork the repository, make changes, and create pull request
 - Name the tip file maintaining the sequential order (e.g., tip1.md, tip2.md, etc.) in the respective category (e.g., general, ethereum, etc.)
 - In the tip file, add header as follows
 ```
