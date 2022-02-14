@@ -1,4 +1,4 @@
-**---
+---
 layout: default
 title: Blockchain Tips
 description: A knowledge-sharing platform
