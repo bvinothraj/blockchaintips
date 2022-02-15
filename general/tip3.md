@@ -19,16 +19,18 @@ example -:
 
 > function getResult() public view returns(uint){
 
-// This is single line comment
+    // This is single line comment
 
-/**
-_ This is a multi-line comment in solidity
-_ It is very similar to comments in C Programming
-*/
-uint a = 1;
-uint b = 2;
-uint result = a + b;
-return result;
+    /**
+       _ This is a multi-line comment in solidity
+       _ It is very similar to comments in C Programming
+    */
+
+
+    uint a = 1;
+    uint b = 2;
+    uint result = a + b;
+    return result;
 }
 
 # Standard to write comment for a state variable and mapping
@@ -65,13 +67,13 @@ Some of the tags usually used are :
 
 Example :
 
-> /**
-
-     * @notice transfer NFT from owner to another account
-     * @param _to receiver address
-     * @param _id tokenId
-     * @param _amount Number of token to be transfered
-     * @return success true if success
+> 
+    /**
+      * @notice transfer NFT from owner to another account
+      * @param _to receiver address
+      * @param _id tokenId
+      * @param _amount Number of token to be transfered
+      * @return success true if success
      */
 
     function transfer(
