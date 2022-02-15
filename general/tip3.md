@@ -17,20 +17,21 @@ Solidity supports both C-style and C++-style comments, Thus −
 
 example -:
 
-> function getResult() public view returns(uint){
+> 
+    function getResult() public view returns(uint){
 
-    // This is single line comment
+        // This is single line comment
 
-    /**
-       _ This is a multi-line comment in solidity
-       _ It is very similar to comments in C Programming
-    */
+        /**
+          _ This is a multi-line comment in solidity
+          _ It is very similar to comments in C Programming
+         */
 
 
-    uint a = 1;
-    uint b = 2;
-    uint result = a + b;
-    return result;
+        uint a = 1;
+        uint b = 2;
+        uint result = a + b;
+        return result;
 }
 
 # Standard to write comment for a state variable and mapping
