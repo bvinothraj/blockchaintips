@@ -11,9 +11,9 @@ _Dated: Feb 15, 2022_
 
 Solidity supports both C-style and C++-style comments, Thus −
 
-> Any text between a /// and the end of a line is treated as a comment and is ignored by Solidity Compiler.
+> Any text between a  //  and the end of a line is treated as a comment and is ignored by Solidity Compiler.
 
-> Any text between the characters /_ and _/ is treated as a comment. This may span multiple lines.
+> Any text between the characters /* and */ is treated as a comment. This may span multiple lines.
 
 example -:
 
@@ -21,10 +21,10 @@ example -:
 
 // This is single line comment
 
-/\*
+/**
 _ This is a multi-line comment in solidity
 _ It is very similar to comments in C Programming
-\*/
+*/
 uint a = 1;
 uint b = 2;
 uint result = a + b;
@@ -37,14 +37,15 @@ Single line comments are usually used to describe state variable and mapping
 
 Example :
 
-> //stores the address of owner
+>    
+    //stores the address of owner
 
     address public owner;
 
     //emits when mint function is called
     event Minted(string uri, uint256 id);
 
-     //mapping from NFT contract address to  tokenid to offer count
+    //mapping from NFT contract address to  tokenid to offer count
     mapping(address => mapping(uint256 => uint256)) public addressToOfferCount;
 
 # Standard to write comment for a function
@@ -64,7 +65,7 @@ Some of the tags usually used are :
 
 Example :
 
-> /\*\*
+> /**
 
      * @notice transfer NFT from owner to another account
      * @param _to receiver address
