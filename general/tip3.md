@@ -4,7 +4,7 @@ title: Blockchain Tips
 description: A knowledge-sharing platform
 ---
 
-# Tips for writing comment in smart contract
+# NatSpec format for writing smart contract
 
 _Contributed By: Siddharth Choudhury_  
 _Dated: Feb 15, 2022_
@@ -15,34 +15,27 @@ Solidity supports both C-style and C++-style comments, Thus −
 
 > Any text between the characters /* and */ is treated as a comment. This may span multiple lines.
 
-example -:
+Example :
 
-> 
-    function getResult() public view returns(uint){
-
-        // This is single line comment
-
-        /**
-          _ This is a multi-line comment in solidity
-          _ It is very similar to comments in C Programming
-         */
-
-
-        uint a = 1;
+```
+    /**
+     * @notice this function returns the sum
+    */
+    function getResult() public view returns(uint){ 
+        uint a = 1; 
         uint b = 2;
-        uint result = a + b;
+        uint result = a + b; // the sum is stored in result variable
         return result;
-}
-
-# Standard to write comment for a state variable and mapping
+ }
+```
+## Standard to write comment for a state variable and mapping
 
 Single line comments are usually used to describe state variable and mapping
 
 Example :
 
->    
+```   
     //stores the address of owner
-
     address public owner;
 
     //emits when mint function is called
@@ -50,8 +43,9 @@ Example :
 
     //mapping from NFT contract address to  tokenid to offer count
     mapping(address => mapping(uint256 => uint256)) public addressToOfferCount;
+```
 
-# Standard to write comment for a function
+## Standard to write comment for a function
 
 Use multi line comment to describe a function which must contain the following things :
 
@@ -68,7 +62,7 @@ Some of the tags usually used are :
 
 Example :
 
-> 
+```
     /**
       * @notice transfer NFT from owner to another account
       * @param _to receiver address
@@ -76,7 +70,6 @@ Example :
       * @param _amount Number of token to be transfered
       * @return success true if success
      */
-
     function transfer(
         address _to,
         uint256 _id,
@@ -85,5 +78,7 @@ Example :
         safeTransferFrom(owner, _to, _id, _amount, "");
         return true;
     }
+```
+Source [Natspec format](https://docs.soliditylang.org/en/v0.8.10/natspec-format.html#natspec)
 
 [back](../)
