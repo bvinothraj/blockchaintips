@@ -51,6 +51,7 @@ Suppose we want real time price feed from Ether to DAI token
  - Call the function getLatestPrice() wherever you need the price,it will
    return you the latest price
 
- - Source <a href="https://docs.chain.link/">Chainlink price oracle</a>
+Source 
+[Chainlink price oracle](https://docs.chain.link/) 
 
 [back](./)
