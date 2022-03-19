@@ -19,7 +19,7 @@ Governance in blockchain is done in two ways such as:
 
 - On-chain governance, a mechanism that enables stakeholders to vote for protocol changes directly on the blockchain, was developed to provide individual users with more influence in the governance process. In this system, governance proposals are often coded into smart contracts and are executed if they receive the required amount of votes to be ratified. DeFi platforms largely use on-chain governance mechanisms. To earn the right to vote or to make a proposal, you typically must hold a governance token. Though on-chain governance has proven to be significantly user-inclusive, it has also been criticized as plutocratic, because the amount of tokens you hold often determines the weight of your vote.
 
-Source :
+Source 
 - [Compound Governance Protocol](https://medium.com/compound-finance/compound-governance-5531f524cf68)
 - [Aave Gvernance protocol](https://docs.aave.com/governance/)
 - [What is defi Governance?](https://www.youtube.com/watch?v=ddyJZ2fXycE)
