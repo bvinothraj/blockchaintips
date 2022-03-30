@@ -12,5 +12,5 @@ description: A knowledge-sharing platform
 # Ethereum
 1. [What is Eth2 or Ethereum 2.0 or Serenity?](ethereum/tip1.md)
 2. [How Ethereum 2.0 or Eth2 works?](ethereum/tip2.md)
-3. [Proof of Work vs Proof of Stake](ethereum/tip3.md)
+4. [Proof of Work vs Proof of Stake](ethereum/tip4.md)
 
