@@ -21,9 +21,9 @@ Governance in blockchain is done in two ways such as:
 
 Source 
 - [Compound Governance Protocol](https://medium.com/compound-finance/compound-governance-5531f524cf68)
-- [Aave Gvernance protocol](https://docs.aave.com/governance/)
+- [Aave Governance protocol](https://docs.aave.com/governance/)
 - [What is defi Governance?](https://www.youtube.com/watch?v=ddyJZ2fXycE)
 - [Openzeppelin Governance standard](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/governance)
 
 
-[back](../)
+[back](./)
